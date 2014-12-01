@@ -1,0 +1,22 @@
+{
+    "name": "minirouter/minirouter",
+    "require": {
+        "symfony/yaml": "~3.0@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thomas H",
+            "email": "thomas.af.haddad@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+		"require-dev":{
+
+		},
+		"autoload": {
+			"psr-4": {
+				"" : "src/"
+			}
+		}
+}
